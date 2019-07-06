@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Mis 10 peliculas favorias</title>
+     <style>
+         body{ /*pongo color al fondo de la página*/
+             background-color:azure;
+         }
+         
+         h1{ /*alineo y cambio color al título*/
+             text-align: center;
+             color: blue;
+         }
+         
+         #lista{ /*cambio el tamaño del div que contiene la lista*/
+             text-align: left;
+             width: 50%;
+         }
+         
+         #imagen{
+             text-align: center;
+         }
+         
+         #texto{
+             text-align: center;
+            
+         }
+         img{ /*especifico las medidas de las imagenes*/
+             width: 100px;
+             height: 140px;
+         }
+         
+         ul{ /*centro la lista*/
+             float: left;
+             position: relative;
+             left: 70%;
+         }
+         li{ /*quito los estilos, centro y cambio color del texto*/
+             list-style: none;
+             padding-right: 20px;
+             font-size:20px;
+             font-weight: bold;
+             color: white;
+             padding: 10px;
+         }
+         
+         ul li:nth-child(odd){ /*color para las lineas pares*/
+             background-color: lightgray;
+         }
+         
+         ul li:nth-child(even){ /*color para las lineas impares*/
+             background-color: darkgrey;
+         }
+         
+         
+     </style>
+ </head>
+    
+ <body>
+     <div>     
+        <div>
+            <h1>Mis 10 peliculas favoritas...</h1>
+         </div>
+         <div id="lista">
+             <ul>
+                 <li><div id="imagen"><a href="https://www.imdb.com/title/tt0080684/?ref_=nv_sr_1?ref_=nv_sr_1"><img src="img/EpV.jpg" alt="El imperio contraataca"></a></div><div id="texto"> El Imperio contraataca</div></li>
+                 <li><div id="imagen"><a href="https://www.imdb.com/title/tt0045061/?ref_=fn_al_tt_1"><img src="img/ElhombreTranquilo.jpg" alt="El hombre tranquilo"></a></div><div id="texto">El hombre tranquilo</div></li>
+                 <li><div id="imagen"><a href="https://www.imdb.com/title/tt3498820/?ref_=nv_sr_1?ref_=nv_sr_1"><img src="img/CivilWar.jpg" alt="Capitán America: civil war"></a></div><div id="texto">Capitán America: civil war</div></li>
+                 <li><div id="imagen"><a href="https://www.imdb.com/title/tt0083866/?ref_=nv_sr_1?ref_=nv_sr_1"><img src="img/et.jpg" alt="ET el extraterrestr"></a></div><div id="texto">E.T. el extraterrestre</div></li>
+                 <li><div id="imagen"><a href="https://www.imdb.com/title/tt0089218/?ref_=nv_sr_1?ref_=nv_sr_1"><img src="img/goonies.jpg" alt="Los Goonies"></a> </div><div id="texto">Los Goonies</div></li>
+                 <li><div id="imagen"><a href="https://www.imdb.com/title/tt0241527/?ref_=nv_sr_1?ref_=nv_sr_1"> <img src="img/HP.jpg" alt="Harry Potter"></a></div><div id="texto">Harry Potter</div></li>
+                 <li><div id="imagen"><a href="https://www.imdb.com/title/tt0097576/?ref_=nv_sr_1?ref_=nv_sr_1"> <img src="img/Indy.jpg" alt="Indiana Jones y la última cruzada"></a></div><div id="texto">Indiana Jones y la última cruzada</div></li>
+                 <li><div id="imagen"><a href="https://www.imdb.com/title/tt0031381/?ref_=nv_sr_1?ref_=nv_sr_1"><img src="img/LoQueElVientoSeLlevo.jpg" alt="Lo que el viento se llevó"></a></div><div id="texto">Lo que el viento se llevó</div></li>
+                 <li><div id="imagen"><a href="https://www.imdb.com/title/tt0120737/?ref_=nv_sr_1?ref_=nv_sr_1"><img src="img/LOTR.png" alt="El señor de los anillos"></a></div><div id="texto">El señor de los anillos</div></li>
+                 <li><div id="imagen"><a href="https://www.imdb.com/title/tt0110357/?ref_=nv_sr_2?ref_=nv_sr_2"><img src="img/ReyLeon.jpg" alt="El rey León"></a> </div><div id="texto">El Rey León</div></li>
+                 <li>Y si quires ver las ganadores para una maratón.... pincha <a href="resultado.html">aqui</a></li>
+             </ul>
+         </div>
+     </div>
+ </body>
+</html>

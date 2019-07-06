@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Las 5 ganadoras</title>
+     <style>
+         body{ /*pongo color al fondo de la página*/
+             background-color:azure;
+         }
+         
+         h1{ /*alineo y cambio color al título*/
+             text-align: center;
+             color: blue;
+         }
+         
+         #lista{ /*cambio el tamaño del div que contiene la lista*/
+             text-align: left;
+             width: 50%;
+         }
+         
+         #imagen{
+             text-align: center;
+         }
+         
+         #texto{
+             text-align: center;
+         }
+         
+         img{ /*especifico las medidas de las imagenes*/
+             width: 100px;
+             height: 140px;
+         }
+        ol{ /*centro la lista*/
+             float: left;
+             position: relative;
+             left: 70%;
+            list-style: decimal;
+         }
+         li{ /*quito los estilos, centro y cambio color del texto*/
+             
+             padding-right: 20px;
+             font-size:20px;
+             font-weight: bold;
+             color: blue;
+             padding: 10px;
+         }
+         
+         ol li:nth-child(odd){ /*color para las lineas pares*/
+             background-color: lightgray;
+         }
+         
+         ol li:nth-child(even){ /*color para las lineas impares*/
+             background-color: darkgrey;
+         }
+         
+        
+         
+        
+         
+     </style>
+ </head>
+    
+ <body>
+     <div>     
+        <div>
+            <h1>Y las 5 ganadoras son:</h1>
+         </div>
+         <div id="lista">
+             <ol>
+               
+                 <li><div id="imagen"> <img src="img/EpV.jpg" alt="El imperio contraataca"></div><div id="texto"> El Imperio contraataca</div></li>
+                 <li><div id="imagen"> <img src="img/ElhombreTranquilo.jpg" alt="El hombre tranquilo"></div><div id="texto">El hombre tranquilo</div></li>
+                 <li><div id="imagen"> <img src="img/CivilWar.jpg" alt="Capitán America: civil war"></div><div id="texto">Capitán America: civil war</div></li>
+                 <li><div id="imagen"> <img src="img/Indy.jpg" alt="Indiana Jones y la última cruzada"></div><div id="texto">Indiana Jones y la última cruzada</div></li>
+                 <li><div id="imagen"> <img src="img/LOTR.png" alt="El señor de los anillos"></div><div id="texto">El señor de los anillos</div></li>
+               
+             </ol>
+         </div>
+     </div>
+ </body>
+</html>
